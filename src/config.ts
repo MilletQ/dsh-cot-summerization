@@ -12,10 +12,9 @@
 
 import z from '@deepseek-ai/schemastery'
 import type Schema from '@deepseek-ai/schemastery'
-import { settingsNamespace } from '@deepseek-ai/dsh-settings'
 
 /** Settings document namespace owned by this plugin. */
-export const COT_SUMMARIZER_SETTINGS_NAMESPACE = settingsNamespace('cot-summarizer')
+export const COT_SUMMARIZER_SETTINGS_NAMESPACE = 'cot-summarizer' as const
 
 /**
  * Default summarizer model override. An empty value means "follow the model
