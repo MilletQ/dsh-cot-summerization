@@ -12,6 +12,8 @@
 
 **DeepSeek Harness 插件:把模型的原始思维链拦截在半空,改写成一条像原生思考的缩略思维链再端给你。**
 
+> **MilletQ fork compatibility:** this fork is patched for **DeepSeek Harness 0.1.5-rc.1**. The removed runtime `settingsNamespace()` API has been replaced with the namespace literal accepted by `ctx.settings.register()`. See [COMPATIBILITY_DSH_0.1.5-rc.1.md](COMPATIBILITY_DSH_0.1.5-rc.1.md).
+
 闭源模型花钱隐藏思维链,开源模型免费全裸。
 我们识别出了开源生态最后一块体验短板,并亲手为它补上——
 方向可能和大家期待的不太一样,但确实是补上了。
